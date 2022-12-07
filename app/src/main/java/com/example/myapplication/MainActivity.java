@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void ChangeText(View v){
         TextView tv = (TextView)findViewById(R.id.textview_first);
-        tv.setText("Text Changed");
+        tv.setText("Text ChangedAgain");
     }
-
+    public void ChangeColor(View v){
+        TextView tv = (TextView)findViewById(R.id.textview_first);
+        tv.setTextColor(Color.parseColor(("#E85232")));
+    }
 }
